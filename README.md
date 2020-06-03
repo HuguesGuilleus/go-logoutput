@@ -1,5 +1,7 @@
 # go-logoutput
 
+[![GoDoc](https://godoc.org/github.com/HuguesGuilleus/go-logoutput?status.svg)](https://godoc.org/github.com/HuguesGuilleus/go-logoutput)
+
 A writer that change output file every day
 
 ## Exemple
