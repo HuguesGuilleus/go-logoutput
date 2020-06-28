@@ -54,7 +54,7 @@ func (w *W) open() {
 	}
 
 	name := filepath.Join(w.Root, w.today.Format("2006-01-02.log"))
-	os.MkdirAll(filepath.Dir(name), 0774)
+	os.MkdirAll(filepath.Dir(name), 0777)
 	var err error
 	w.f, err = os.OpenFile(name, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0664)
 	if err != nil {
